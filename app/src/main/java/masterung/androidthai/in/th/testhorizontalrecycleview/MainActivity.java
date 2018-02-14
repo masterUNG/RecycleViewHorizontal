@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
 
         // set up the RecyclerView
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rvAnimals);
+
         LinearLayoutManager horizontalLayoutManagaer
                 = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
         recyclerView.setLayoutManager(horizontalLayoutManagaer);

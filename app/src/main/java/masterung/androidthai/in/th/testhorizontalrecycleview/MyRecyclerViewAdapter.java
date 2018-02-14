@@ -41,6 +41,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
         holder.myTextView.setText(animal);
     }
 
+
     // total number of rows
     @Override
     public int getItemCount() {
